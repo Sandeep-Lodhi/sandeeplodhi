@@ -12,4 +12,3 @@ url: 'https://www.webnexus.in/'
 - Developed and deployed scalable MERN stack applications with dynamic role-based access.
 - Integrated serverless architecture using AWS Lambda and implemented modern CI/CD workflows.
 - Collaborated with product and design teams to build performant frontends and APIs.
-

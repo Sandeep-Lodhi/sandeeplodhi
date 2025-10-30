@@ -12,4 +12,3 @@ url: 'https://www.shaligraminfotech.com/'
 - Designed and developed responsive web applications using the MERN stack.
 - Collaborated with the team to design and implement RESTful APIs using Node.js and Express.js.
 - Developed and maintained databases using MS SQL Server.
-

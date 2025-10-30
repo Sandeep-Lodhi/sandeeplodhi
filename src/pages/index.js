@@ -47,11 +47,16 @@ export const pageQuery = graphql`
     about: allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/about/" } }) {
       edges {
         node {
-          frontmatter { 
+          frontmatter {
             title
             avatar {
               childImageSharp {
-                gatsbyImageData(width: 700, quality: 90, placeholder: TRACED_SVG, formats: [AUTO, WEBP, AVIF])
+                gatsbyImageData(
+                  width: 700
+                  quality: 90
+                  placeholder: TRACED_SVG
+                  formats: [AUTO, WEBP, AVIF]
+                )
               }
             }
             skills
@@ -87,7 +92,12 @@ export const pageQuery = graphql`
             title
             cover {
               childImageSharp {
-                gatsbyImageData(width: 700, quality: 90, placeholder: TRACED_SVG, formats: [AUTO, WEBP, AVIF])
+                gatsbyImageData(
+                  width: 700
+                  quality: 90
+                  placeholder: TRACED_SVG
+                  formats: [AUTO, WEBP, AVIF]
+                )
               }
             }
             tech
