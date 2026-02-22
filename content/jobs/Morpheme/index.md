@@ -4,7 +4,7 @@ title: 'MERN Stack Developer'
 company: 'Morpheme'
 # Morpheme Webnexus Pvt. Ltd
 location: 'Gaur City, Greater Noida'
-range: 'Nov 2024 - Aug 2025'
+range: 'Nov 2024 - July 2025'
 url: 'https://www.webnexus.in/'
 ---
 

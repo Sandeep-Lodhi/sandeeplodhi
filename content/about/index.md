@@ -1,10 +1,10 @@
 ---
 title: 'About Me'
-avatar: 'me.png'
+avatar: 'me2.jpeg'
 skills:
   - Coding
   - Reading
-  - Painting
+  - Traveling
   - Problem Solving
   - Team Management
   - Mentoring
@@ -14,10 +14,10 @@ skills:
 
 from Delhi, India — a city full of energy, culture, and innovation!
 
-I’m a passionate and versatile Full Stack (MERN) Developer with around 3 years of hands-on experience in building robust, scalable, and user-friendly web applications. I love turning creative ideas into real-world digital solutions that make a difference.
+MERN Stack Developer with 3+ years of experience building scalable, production-grade web applications.
 
-I’m a self-motivated learner who enjoys exploring modern technologies, writing clean and efficient code, and continuously improving both my technical and problem-solving skills.
+Specialized in backend architecture, high-performance REST APIs, and real-time systems using MongoDB, Express.js, React.js, and Node.js.
 
-I specialize in crafting beautiful frontends using React.js, Next.js, Tailwind CSS, and developing powerful backends with Node.js, Express.js, MongoDB, and MySQL. My goal is to deliver smooth, secure, and high-performing applications that bring real value to users and businesses alike.
+Experienced in healthcare, logistics, enterprise dashboards, e-commerce, real estate and media platforms, with a strong focus on clean architecture, performance optimization, and secure cloud deployment.
 
 Here are a few of the other activities that I love to do!
