@@ -51,9 +51,14 @@ const StyledDescription = styled.div`
     ${mixins.inlineLink};
   }
 `;
+const StyledButtons = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+`;
 const StyledEmailLink = styled.a`
   ${mixins.bigButton};
-  margin-top: 50px;
+  margin: 0 15px 15px 0;
 `;
 
 const Hero = ({ data }) => {
@@ -82,9 +87,13 @@ const Hero = ({ data }) => {
     />
   );
   const five = () => (
-    <div style={{ transitionDelay: '500ms' }}>
+    <StyledButtons style={{ transitionDelay: '500ms' }}>
       <StyledEmailLink href={`mailto:${email}`}>Get In Touch</StyledEmailLink>
-    </div>
+      <StyledEmailLink href="/#projects">View Projects</StyledEmailLink>
+      <StyledEmailLink href="/resume.pdf" target="_blank" rel="nofollow noopener noreferrer">
+        Resume
+      </StyledEmailLink>
+    </StyledButtons>
   );
 
   const items = [one, two, three, four, five];

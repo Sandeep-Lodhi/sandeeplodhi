@@ -1,10 +1,10 @@
 ---
 title: 'Hello, my name is'
 name: 'Sandeep Lodhi'
-subtitle: 'I love building ideas into real web experiences!'
+subtitle: 'I build backends that stay fast under load.'
 buttonText: 'Get In Touch'
 ---
 
-I’m a MERN Stack Developer from Delhi, India, with a strong passion for creating scalable, modern, and user-friendly applications.
+I’m a Backend Engineer from New Delhi, India, with 4 years of experience building production Node.js and TypeScript services for healthcare, business intelligence, logistics and media platforms.
 
-I enjoy learning new technologies, improving performance, and turning concepts into clean, functional code!
+I focus on REST API design, data modeling, caching, background jobs and cloud deployment, and I now bring LLM integration into the systems I build.

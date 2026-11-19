@@ -66,10 +66,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://Sandeep-Lodhi.github.io/sandeeplodhi"
+    "url": "https://github.com/Sandeep-Lodhi/sandeeplodhi.git"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/Sandeep-Lodhi/sandeeplodhi/issues"
   },
   "devDependencies": {
     "@upstatement/eslint-config": "^3.0.0",

@@ -1,7 +1,6 @@
 ---
-date: '10'
+date: '2025-12-16'
 title: 'Netflix Clone'
-cover: 'netflix-clone.png'
 github: 'https://github.com/Sandeep-Lodhi/netflix-clone'
 external: 'https://netflix-clone-git-main-sandeep-lodhis-projects.vercel.app/'
 tech:
@@ -10,6 +9,7 @@ tech:
   - Firebase
   - TMDB API
   - Tailwind CSS
+company: 'Personal Project'
 showInProjects: true
 ---
 

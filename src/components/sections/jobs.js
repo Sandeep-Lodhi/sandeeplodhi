@@ -237,9 +237,13 @@ const Jobs = ({ data }) => {
                   <span>{title}</span>
                   <StyledCompany>
                     <span>&nbsp;@&nbsp;</span>
-                    <a href={url} target="_blank" rel="nofollow noopener noreferrer">
-                      {company}
-                    </a>
+                    {url ? (
+                      <a href={url} target="_blank" rel="nofollow noopener noreferrer">
+                        {company}
+                      </a>
+                    ) : (
+                      <span>{company}</span>
+                    )}
                   </StyledCompany>
                 </StyledJobTitle>
                 <StyledJobDetails>

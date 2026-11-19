@@ -2,7 +2,9 @@ import React, { useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import sr from '@utils/sr';
-import { srConfig, github } from '@config';
+// Stats strip is commented out in the JSX below; kept so it can be switched back on.
+// eslint-disable-next-line no-unused-vars
+import { srConfig, github, skillGroups, activities, activitiesTitle, stats } from '@config';
 import styled from 'styled-components';
 import { theme, mixins, media, Section, Heading } from '@styles';
 const { colors, fontSizes, fonts } = theme;
@@ -21,6 +23,35 @@ const StyledContent = styled.div`
   ${media.tablet`width: 100%;`};
   a {
     ${mixins.inlineLink};
+  }
+`;
+// eslint-disable-next-line no-unused-vars
+const Stats = styled.ul`
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  padding: 0;
+  margin: 0 0 25px;
+  list-style: none;
+  ${media.phone`grid-template-columns: repeat(2, 1fr);`};
+  li {
+    padding: 12px 10px;
+    border-radius: ${theme.borderRadius};
+    background-color: ${colors.lightNavy};
+  }
+  strong {
+    display: block;
+    font-family: ${fonts.SFMono};
+    font-size: ${fontSizes.xl};
+    font-weight: normal;
+    color: ${colors.green};
+  }
+  span {
+    display: block;
+    margin-top: 4px;
+    font-size: ${fontSizes.smish};
+    line-height: 1.3;
+    color: ${colors.slate};
   }
 `;
 const SkillsContainer = styled.ul`
@@ -46,6 +77,90 @@ const Skill = styled.li`
     font-size: ${fontSizes.sm};
     line-height: 12px;
   }
+`;
+const Chevron = () => <span className="chevron" aria-hidden="true" />;
+const toggleStyles = `
+  summary {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    list-style: none;
+    font-family: ${fonts.SFMono};
+    transition: ${theme.transition};
+    &::-webkit-details-marker {
+      display: none;
+    }
+    &:hover,
+    &:focus {
+      color: ${colors.green};
+      outline: 0;
+    }
+  }
+  .chevron {
+    display: inline-block;
+    flex: 0 0 20px;
+    width: 20px;
+    color: ${colors.green};
+    font-family: ${fonts.SFMono};
+    font-size: ${fontSizes.sm};
+    line-height: 12px;
+    &:before {
+      content: '▹';
+      display: inline-block;
+      transition: transform 0.2s ease;
+    }
+  }
+`;
+const AllSkills = styled.details`
+  ${toggleStyles};
+  margin-top: 5px;
+  > summary {
+    display: inline-flex;
+    padding: 4px 0;
+    font-size: ${fontSizes.smish};
+    color: ${colors.green};
+  }
+  &[open] > summary .chevron:before {
+    transform: rotate(90deg);
+  }
+`;
+const SkillGroups = styled.div`
+  margin-top: 15px;
+`;
+const SkillGroup = styled.details`
+  ${toggleStyles};
+  border-top: 1px solid ${colors.lightestNavy};
+  &:last-of-type {
+    border-bottom: 1px solid ${colors.lightestNavy};
+  }
+  > summary {
+    padding: 12px 0;
+    font-size: ${fontSizes.sm};
+    color: ${colors.lightestSlate};
+  }
+  &[open] > summary {
+    color: ${colors.green};
+  }
+  &[open] > summary .chevron:before {
+    transform: rotate(90deg);
+  }
+`;
+const SkillGroupBody = styled.div`
+  padding: 0 0 12px 24px;
+  ${SkillsContainer} {
+    margin: 0 0 6px;
+  }
+`;
+const Activities = styled.div`
+  margin-top: 15px;
+  p {
+    margin: 0;
+  }
+`;
+const SkillLabel = styled.div`
+  margin: 6px 0 10px;
+  font-size: ${fontSizes.sm};
+  color: ${colors.lightSlate};
 `;
 const StyledPic = styled.div`
   position: relative;
@@ -123,10 +238,66 @@ const About = ({ data }) => {
       <Heading>{title}</Heading>
       <StyledFlexContainer>
         <StyledContent>
+          {/* Stats strip hidden for now. Uncomment to show it again.
+          stats && (
+            <Stats>
+              {stats.map(({ value, label }) => (
+                <li key={label}>
+                  <strong>{value}</strong>
+                  <span>{label}</span>
+                </li>
+              ))}
+            </Stats>
+          )
+          */}
           <div dangerouslySetInnerHTML={{ __html: html }} />
-          <SkillsContainer>
-            {skills && skills.map((skill, i) => <Skill key={i}>{skill}</Skill>)}
-          </SkillsContainer>
+          {skills && skills.length > 0 && (
+            <SkillsContainer>
+              {skills.map((skill, i) => (
+                <Skill key={i}>{skill}</Skill>
+              ))}
+            </SkillsContainer>
+          )}
+          {activities && (
+            <Activities>
+              <p>{activitiesTitle}</p>
+              <SkillsContainer>
+                {activities.map(activity => (
+                  <Skill key={activity}>{activity}</Skill>
+                ))}
+              </SkillsContainer>
+            </Activities>
+          )}
+          {skillGroups && (
+            <AllSkills>
+              <summary>
+                <Chevron />
+                All skills
+              </summary>
+              <SkillGroups>
+                {skillGroups.map(({ title, items }) => (
+                  <SkillGroup key={title}>
+                    <summary>
+                      <Chevron />
+                      {title}
+                    </summary>
+                    <SkillGroupBody>
+                      {items.map(({ label, list }, i) => (
+                        <div key={i}>
+                          {label && <SkillLabel>{label}</SkillLabel>}
+                          <SkillsContainer>
+                            {list.map(skill => (
+                              <Skill key={skill}>{skill}</Skill>
+                            ))}
+                          </SkillsContainer>
+                        </div>
+                      ))}
+                    </SkillGroupBody>
+                  </SkillGroup>
+                ))}
+              </SkillGroups>
+            </AllSkills>
+          )}
         </StyledContent>
         <StyledPic>
           <StyledAvatarLink href={github}>

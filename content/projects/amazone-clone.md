@@ -1,7 +1,6 @@
 ---
-date: '11'
+date: '2025-12-17'
 title: 'Amazon Clone'
-cover: 'amazon-clone.png'
 github: 'https://github.com/Sandeep-Lodhi/Amazone-Clone'
 external: 'https://amazone-clone-six-omega.vercel.app/'
 tech:
@@ -11,6 +10,7 @@ tech:
   - Express.js
   - Stripe
   - CSS3
+company: 'Personal Project'
 showInProjects: true
 ---
 

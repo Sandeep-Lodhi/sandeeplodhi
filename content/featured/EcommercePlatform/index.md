@@ -1,5 +1,5 @@
 ---
-date: '9'
+date: '87'
 title: 'E-commerce Platform (MERN Stack)'
 cover: 'ecommerce.png'
 github: ''

@@ -6,7 +6,7 @@ external: 'https://sandeep-lodhi.github.io/JS_Intern_task-2/'
 tech:
   - JavaScript
 company: 'Internship'
-showInProjects: true
+showInProjects: false
 ---
 
 Product Details Form created using JavaScript.

@@ -1,7 +1,6 @@
 ---
-date: '13'
+date: '2025-12-15'
 title: 'Todo App'
-cover: 'todo-app.png'
 github: 'https://github.com/Sandeep-Lodhi/dodo-app'
 external: 'https://dodo-app-client.vercel.app/'
 tech:
@@ -10,6 +9,7 @@ tech:
   - Express.js
   - MongoDB
   - Tailwind CSS
+company: 'Personal Project'
 showInProjects: true
 ---
 

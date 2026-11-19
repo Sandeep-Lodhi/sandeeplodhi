@@ -110,7 +110,6 @@ const ArchivePage = ({ location, data }) => {
     <Layout location={location}>
       <Helmet>
         <title>Archive | Sandeep Lodhi</title>
-        <link rel="canonical" href="https://brittanychiang.com/archive" />
       </Helmet>
 
       <StyledMainContainer>

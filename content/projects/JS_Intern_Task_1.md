@@ -6,7 +6,7 @@ external: 'https://sandeep-lodhi.github.io/JS_Intern_Task_1/'
 tech:
   - JavaScript
 company: 'Internship'
-showInProjects: true
+showInProjects: false
 ---
 
 CRUD Operation project created using JavaScript.

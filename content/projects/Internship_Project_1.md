@@ -7,7 +7,7 @@ tech:
   - HTML
   - CSS
 company: 'Internship'
-showInProjects: true
+showInProjects: false
 ---
 
 Internship Project (Task-1) created using HTML5 and CSS3.

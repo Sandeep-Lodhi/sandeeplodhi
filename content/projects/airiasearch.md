@@ -1,7 +1,6 @@
 ---
-date: '14'
+date: '2025-12-18'
 title: 'Airiasearch'
-cover: 'airiasearch.png'
 github: 'https://github.com/Sandeep-Lodhi/airiasearch'
 external: 'https://airiasearch.vercel.app/'
 tech:
@@ -10,6 +9,7 @@ tech:
   - Node.js
   - Express.js
   - REST API
+company: 'Personal Project'
 showInProjects: true
 ---
 

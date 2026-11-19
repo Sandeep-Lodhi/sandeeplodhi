@@ -6,7 +6,7 @@ external: 'https://sandeep-lodhi.github.io/JS_Intern_TAsk-4/'
 tech:
   - HTML
 company: 'Internship'
-showInProjects: true
+showInProjects: false
 ---
 
 Task-4 created using HTML during internship.

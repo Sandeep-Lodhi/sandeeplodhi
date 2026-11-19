@@ -6,7 +6,7 @@ external: 'https://sandeep-lodhi.github.io/JS_Intern_task-3/'
 tech:
   - HTML
 company: 'Internship'
-showInProjects: true
+showInProjects: false
 ---
 
 Get Product Details by Users — created using HTML.

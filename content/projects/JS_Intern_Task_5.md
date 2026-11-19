@@ -6,7 +6,7 @@ external: 'https://sandeep-lodhi.github.io/JS_Intern_Task_5/'
 tech:
   - JavaScript
 company: 'Internship'
-showInProjects: true
+showInProjects: false
 ---
 
 Task-5 based on APIs created using JavaScript.

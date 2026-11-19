@@ -6,7 +6,7 @@ external: 'https://sandeep-lodhi.github.io/Internship_JS_Test/'
 tech:
   - HTML
 company: 'Internship'
-showInProjects: true
+showInProjects: false
 ---
 
 Test project created during internship using HTML.

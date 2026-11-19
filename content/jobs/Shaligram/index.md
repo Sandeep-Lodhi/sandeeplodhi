@@ -8,7 +8,5 @@ range: 'Feb 2023 - Aug 2023'
 url: 'https://www.shaligraminfotech.com/'
 ---
 
-- Information Technology and Services.
-- Designed and developed responsive web applications using the MERN stack.
-- Collaborated with the team to design and implement RESTful APIs using Node.js and Express.js.
-- Developed and maintained databases using MS SQL Server.
+- Improved enterprise application response time by 30% through REST API optimization.
+- Tuned MS SQL queries for a 20% performance gain.

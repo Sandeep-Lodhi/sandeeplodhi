@@ -1,22 +1,23 @@
 ---
-date: '-1'
+date: '97'
 title: 'Hospital Appointment CRM'
 cover: 'hospital-crm.png'
 github: ''
-external: 'http://192.168.10.223:8888/app/'
+external: ''
 tech:
-  - MongoDB
-  - Express.js
-  - React.js
   - Node.js
-  - MS SQL Server
+  - Express 5
+  - SQL Server
+  - Redis
+  - React 19
+  - Redux Toolkit
+  - Tailwind CSS
+  - Swagger / OpenAPI
   - IIS
   - IISNode
-  - WebRTC
-  - REST APIs
 showInProjects: true
 ---
 
-Developed an internal hospital CRM for appointment booking, patient management, and real-time scheduling.
-Integrated secure WebRTC-based video consultation for online doctor–patient interaction.
-Deployed Node.js application on IIS using IISNode within hospital infrastructure and optimized backend performance.
+Agent-facing CRM for clinic appointments that replaced a legacy ASP.NET WebForms system and runs inside the Ameyo dialer with single sign-on.
+Built 47 API modules with OpenAPI docs, 463 models generated from SQL DDL, 23 disposition panels and 16 dynamic consultation forms.
+Integrated the dialer, Exotel WhatsApp and SMS gateways with retry and delivery tracking, deployed on Windows Server with IIS and IISNode.

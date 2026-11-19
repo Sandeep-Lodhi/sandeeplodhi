@@ -1,7 +1,6 @@
 ---
-date: '6'
+date: '2025-12-20'
 title: 'Real Estate Platform'
-cover: 'real-estate.png'
 github: 'https://github.com/Sandeep-Lodhi/mern-estate'
 external: 'https://real-estate-d1ad.onrender.com/'
 tech:
@@ -18,6 +17,7 @@ tech:
   - JavaScript
   - JQuery
   - JSON
+company: 'Personal Project'
 showInProjects: true
 ---
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { SiLeetcode } from 'react-icons/si';
 import {
   IconAppStore,
   IconCodepen,
@@ -34,6 +35,8 @@ const FormattedIcon = ({ name }) => {
       return <IconGitHub />;
     case 'Instagram':
       return <IconInstagram />;
+    case 'LeetCode':
+      return <SiLeetcode />;
     case 'Linkedin':
       return <IconLinkedin />;
     case 'Loader':

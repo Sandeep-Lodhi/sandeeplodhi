@@ -1,19 +1,23 @@
 ---
 date: '2025-08-01'
-title: 'MERN Stack Developer'
+title: 'Backend Developer'
 company: 'Atiya'
-# company: 'Atiya Healthcare Pvt. Ltd.'
+# Atiya Healthcare Pvt. Ltd.
 location: 'Karol Bagh, New Delhi'
 range: 'Aug 2025 - Present'
 url: 'https://atiyaherbs.com/'
 ---
 
-- Healthcare technology company focused on digital patient engagement and automation systems.
+- Built the backend for a WhatsApp Automation Platform and a Hospital Appointment CRM.
 
-- Developed and deployed a full-scale WhatsApp Automation Platform integrating Exotel APIs for real-time messaging and bulk campaign workflows.
+- Developed REST APIs for scheduling, patient records, campaigns and call history.
 
-- Built an internal Hospital Appointment CRM with secure WebRTC-based video consultation for doctor–patient interaction.
+- Integrated Exotel WhatsApp APIs for automated messaging.
 
-- Managed Cloudflare infrastructure, optimized REST APIs, and improved MongoDB performance for high-concurrency workloads.
+- Built the WebRTC session backend for doctor–patient video calls.
 
-- Implemented role-based access control (RBAC) and ensured secure, production-ready backend architecture.
+- Implemented JWT auth, role-based access control and request validation.
+
+- Optimized MongoDB queries and APIs, cutting processing time by 30%.
+
+- Deployed to production on IIS/IISNode behind Cloudflare.

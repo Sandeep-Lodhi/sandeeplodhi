@@ -1,13 +1,12 @@
 ---
 date: '2023-08-01'
-title: 'MERN Stack Developer'
+title: 'Backend Developer'
 company: 'MSAI'
-# B MSAI Research Labs Private Limited
+# AB MSAI Research Labs Private Limited
 location: 'Pashchim Vihar, New Delhi'
 range: 'Aug 2023 - Oct 2024'
 url: 'https://www.msai.in/'
 ---
 
-- Artificial Intelligence Solutions Provider.
-- Developed a MERN-based website for Thepnac.com, mirroring the functionality of the Creote theme.
-- Implemented responsive design for the OD project, ensuring optimal user experience across all devices.
+- Developed Node.js backend services and REST APIs for multiple production web apps, including auth, validation and third-party integrations.
+- Optimized APIs and database queries, contributing to a 20% increase in user engagement and faster page loads.

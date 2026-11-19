@@ -1,23 +1,14 @@
 ---
 title: 'About Me'
-avatar: 'me2.jpeg'
-skills:
-  - Coding
-  - Reading
-  - Traveling
-  - Problem Solving
-  - Team Management
-  - Mentoring
+avatar: 'me.jpg'
 ---
 
-👋 Hello! I'm Sandeep Lodhi,
+Hello! I'm Sandeep Lodhi, a Backend Engineer based in New Delhi, India.
 
-from Delhi, India — a city full of energy, culture, and innovation!
+Over the past 4 years I have built production Node.js services for healthcare, business intelligence, logistics and media platforms, for clients in the USA, Israel, Spain and Australia.
 
-MERN Stack Developer with 3+ years of experience building scalable, production-grade web applications.
+My strengths are REST API design, SQL and NoSQL data modeling, caching, background jobs and cloud deployment. I led backend delivery for a high-traffic global media platform, and I have cut API and processing time by 30% across three different systems.
 
-Specialized in backend architecture, high-performance REST APIs, and real-time systems using MongoDB, Express.js, React.js, and Node.js.
+More recently I have been working in AI engineering: integrating LLMs through the OpenAI API, function calling, structured outputs and retrieval-augmented generation.
 
-Experienced in healthcare, logistics, enterprise dashboards, e-commerce, real estate and media platforms, with a strong focus on clean architecture, performance optimization, and secure cloud deployment.
-
-Here are a few of the other activities that I love to do!
+I hold a B.Tech in Computer Science Engineering from Technocrats Institute of Technology, Bhopal (2019 – 2023, CGPA 8.7/10).

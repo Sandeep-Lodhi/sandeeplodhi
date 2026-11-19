@@ -1,7 +1,6 @@
 ---
-date: '12'
+date: '2025-12-19'
 title: 'Zegocloud App'
-cover: 'zegocloud.png'
 github: 'https://github.com/Sandeep-Lodhi/zegocloud-app'
 external: 'https://zegocloud-app.vercel.app/'
 tech:
@@ -13,6 +12,7 @@ tech:
   - TypeScript
   - JWT
   - ZegoCloud SDK
+company: 'Personal Project'
 showInProjects: true
 ---
 

@@ -1,22 +1,22 @@
 ---
-date: '0'
+date: '94'
 title: 'WhatsApp Automation Platform'
 cover: 'whatsapp-automation.png'
 github: ''
 external: 'http://whatsapp.atiyaherbs.com'
 tech:
-  - MongoDB
-  - Express.js
-  - React.js
   - Node.js
+  - Express.js
+  - Socket.IO
+  - MongoDB Atlas
+  - React 19
   - Exotel WhatsApp API
-  - Cloudflare
-  - REST APIs
-  - JWT
-  - Role-Based Access Control
+  - Cloudinary
+  - PM2
+  - Cloudways
 showInProjects: true
 ---
 
-Built a production-grade WhatsApp automation system for real-time messaging and bulk campaign management.
-Integrated Exotel WhatsApp APIs for chatbot workflows, message templates, and engagement tracking.
-Implemented secure role-based authentication and optimized REST APIs for high-concurrency communication.
+Real-time shared WhatsApp Business inbox for support agents, built on the Exotel WhatsApp API.
+Incoming webhooks are stored in MongoDB and pushed to agents over Socket.IO, with delivery-status tracking and unread badges.
+Replies are routed automatically from the same business number the customer wrote to, with retry and exponential backoff on sends.

@@ -8,7 +8,7 @@ tech:
   - CSS
   - Bootstrap
 company: 'Internship'
-showInProjects: true
+showInProjects: false
 ---
 
 Task-3 created using HTML, CSS, and Bootstrap.

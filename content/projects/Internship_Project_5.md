@@ -6,7 +6,7 @@ external: 'https://sandeep-lodhi.github.io/Internship_Project_5/'
 tech:
   - HTML
 company: 'Internship'
-showInProjects: true
+showInProjects: false
 ---
 
 User Dashboard project created using HTML.
